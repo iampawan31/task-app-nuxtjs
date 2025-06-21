@@ -9,12 +9,12 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "test": "vitest"
   },
   "dependencies": {
     "@libsql/client": "^0.15.9",
     "@nuxt/eslint": "^1.4.1",
-    "@nuxt/test-utils": "^3.19.1",
     "@picocss/pico": "^2.1.1",
     "drizzle-orm": "^0.44.2",
     "drizzle-zod": "^0.8.2",
@@ -25,6 +25,11 @@
     "zod": "^3.25.64"
   },
   "devDependencies": {
-    "drizzle-kit": "^0.31.1"
+    "@nuxt/test-utils": "^3.19.1",
+    "@vue/test-utils": "^2.4.6",
+    "drizzle-kit": "^0.31.1",
+    "happy-dom": "^17.6.3",
+    "playwright-core": "^1.53.1",
+    "vitest": "^3.2.4"
   }
 }

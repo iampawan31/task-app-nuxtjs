@@ -2,7 +2,7 @@ import "./lib/env"
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-	modules: ["@nuxt/eslint", "@nuxt/test-utils"],
+	modules: ["@nuxt/eslint", "@nuxt/test-utils/module"],
 	devtools: { enabled: true },
 	css: ["@picocss/pico"],
 	compatibilityDate: "2025-05-15",
